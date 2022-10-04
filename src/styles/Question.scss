@@ -1,0 +1,24 @@
+.question{
+    @apply text-lg pb-10 text-center;
+
+    &-wrapper{
+        @apply w-[70%] mx-auto;
+    }
+}
+
+.answers{
+    & li{
+        @apply border rounded-full border-black mb-3 py-1 pl-5 text-center font-light;
+        @apply hover:cursor-pointer hover:bg-gray-400;
+    }
+
+    & .correct{
+        @apply bg-green;
+        @apply hover:bg-green;
+    }
+
+    & .incorrect{
+        @apply bg-red;
+        @apply hover:bg-red;
+    }
+}
