@@ -1,0 +1,21 @@
+.footer{
+    @apply flex items-center justify-evenly pt-5 w-full;
+    @apply lg:pt-10;
+
+    & .btn{
+        @apply rounded-full px-10 py-1 text-white opacity-90;
+        @apply hover:opacity-100;
+    }
+
+    .selected{
+        @apply bg-orange;
+    }
+
+    .unselected{
+        @apply bg-slate-900;
+    }
+
+    & button:disabled{
+        @apply bg-gray-400 cursor-not-allowed;
+    }
+}
