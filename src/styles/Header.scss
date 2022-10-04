@@ -1,0 +1,15 @@
+.header{
+    @apply flex items-center text-white-100 text-4xl absolute top-5;
+    @apply md:text-5xl md:top-10;
+    @apply 2xl:text-6xl 2xl:top-16;
+
+    &-first{
+        @apply text-orange;
+    }
+
+    &-underline{
+        @apply absolute left-20 top-4 text-orange;
+        @apply md:top-5 md:left-24;
+        @apply 2xl:top-6 2xl:left-32;
+    }
+}
