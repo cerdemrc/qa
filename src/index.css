@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    @apply m-0 p-0 box-border;
+}
+
+body{
+    @apply h-screen w-full;
+    background-image: radial-gradient(rgb(100, 100, 100) 0.5px, rgb(0,0,0) 0.5px);
+    background-size: 20px 20px;
+}
